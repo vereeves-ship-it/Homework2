@@ -1,0 +1,354 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background-color: #c19ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo, img{
+  width: 180px;
+  align-items: center;
+}
+
+.content{
+  margin: 0 auto;
+  width: 100%;
+  height: 2850px;
+  background-color: lightblue;
+}
+
+.about{
+  padding-top: 90px;
+  margin: 0 auto;
+  width: 80%;
+  height: 500px;
+  /*background-color: lightgreen;*/
+  margin-bottom: 20px;
+}
+.projects{
+  padding-top: 15px;
+  margin: 0 auto;
+  width: 80%;
+  height: 1225px;
+  /*background-color: lightsalmon;*/
+  margin-bottom: 25px;
+}
+.skills{
+  padding-top: 20px;
+  margin: 0 auto;
+  width: 80%;
+  height: 500px;
+  /* background-color: lightseagreen;*/
+  margin-bottom: 25px;
+}
+.contact{
+  padding-top: 15px;
+  margin: 0 auto;
+  width: 80%;
+  height: 450px;
+  /*background-color: lightskyblue;*/
+}
+footer{
+  margin-left: 15px;
+}
+h1{
+  margin: 0 auto;
+  text-align: center;
+  width: 15%;
+  height: 40px;
+  border: solid 2.5px;
+  border-color: white;
+  border-radius: 15px;
+  background-color: rgba(176, 255, 229, 0.559);
+  margin-bottom: 15px;
+}
+.info{
+  border: solid;
+  border-color: rgba(255, 255, 255, 0.493);
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 700px;
+  height: 300px;
+  background-color: rgba(176, 255, 229, 0.559);
+}
+.text{
+  padding-top: 20px;
+  margin-right: 25px;
+  /*background-color: green;*/
+  width: 400px;
+  height: 200px;
+  text-align: center;
+}
+.icon{
+  margin: 25px;
+  border-radius: 50%;
+  background-image: url(images/lick_pfp.png);
+  background-position: 0px -20px;
+  background-repeat: no-repeat;
+  background-size: 110%;
+  width: 200px;
+  height: 200px;
+}
+.line{
+  margin: 0 auto;
+  width: 80%;
+  height: 3px;
+  background-color: white;
+  margin-bottom: 25px;
+}
+
+.skillsContent{
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 80%;
+  border: solid;
+  border-color: white;
+  border-radius: 25px;
+  background-color: rgba(176, 255, 229, 0.559);
+}
+.skillsIcon{
+  padding-top: 15px;
+  width: 700px;
+  height: 150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.iconOne{
+  background-image: url(images/csp.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 150px;
+  height: 150px;
+}
+.iconTwo{
+  background-image: url(images/procreate.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 150px;
+  height: 150px;
+}
+.iconThree{
+  background-image: url(images/live2d.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 150px;
+  height: 150px;
+}
+.iconFour{
+  background-image: url(images/animate.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 150px;
+  height: 150px;
+}
+.skills p{
+  text-align: center;
+  /*background-color: blue;*/
+  margin: 0 auto;
+  padding-top: 15px;
+  width: 300px;
+  height: 40px;
+}
+
+.videos{  
+  border: solid 3px;
+  border-color: white;
+  border-radius: 15px;
+  margin: 0 auto;
+  width: 80%;
+  height: 500px;
+  margin-bottom: 15px;
+  background-color: rgba(176, 255, 229, 0.559);
+  /*background-color: blue;*/
+}
+.oneTwo{
+  margin: 0 auto;
+  width: 95%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: -20px;
+}
+.images{
+  margin: 0 auto;
+  padding-top: 15px;
+  width: 80%;
+  height: 625px;
+  border: solid;
+  border-radius: 15px;
+  border-color: white;
+  background-color: rgba(176, 255, 229, 0.559);
+}
+
+.videoOne video{
+  margin-top: 25px;
+  width: 380px;
+  height: 217px;
+  border-radius: 10px;
+  border: solid;
+  border-color: white;
+  margin-bottom: 25px;
+}
+.videoTwo video{
+  margin-top: 25px;
+  width: 380px;
+  height: 217px;
+  border-radius: 10px;
+  border: solid;
+  border-color: white;
+}
+.videoThree{
+  margin: 0 auto;
+  width: 380px;
+  height: 217px;
+}
+.videoThree video{
+  width: 380px;
+  height: 217px;
+  border-radius: 10px;
+  border: solid;
+  border-color: white;
+}
+.topImages{
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;;
+}
+.bottomImages{
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;;
+}
+.artOne{
+  background-image: url(images/Ciel.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 225px;
+  height: 400px;
+}
+.artTwo{
+  background-image: url(images/bird.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 345px;
+  height: 500px;
+}
+.artThree{
+  background-image: url(images/bnuuy.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 220px;
+}
+.artFour{
+  background-image: url(images/Emi.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 235px;
+}
+.artFive{
+  background-image: url(images/Cyn.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 195px;
+}
+.artSix{
+  background-image: url(images/gays.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 320px;
+}
+
+form{
+  border: solid 3px;
+  border-color: white;
+  border-radius: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  /*background-color: blue;*/
+  margin: 0 auto;
+  width: 60%;
+  background-color: rgba(176, 255, 229, 0.559);
+}
+
+/*Submit Form*/
+
+.content2{
+  margin: 0 auto;
+  padding-top: 125px;
+  width: 100%;
+  height: 618px;
+  background-color: lightblue;
+}
+
+.box{
+  margin: 0 auto;
+  border: solid 3px;
+  border-color: white;
+  border-radius: 25px;
+  width: 450px;
+  height: 425px;
+}
+h2{
+  padding-top: 25px;
+  margin: 0 auto;
+  text-align: center;
+  width: 300px;
+  height: 100px;
+}
+.box{
+  margin: 0 auto;
+}
+.box p{
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 15px;
+  width: 400px;
+  height: 50px;
+}
+.heartEmoji{
+  margin: 0 auto;
+  background-image: url(images/Heart.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+.homeButton{
+  border: solid 2px;
+  border-color: white;
+  border-radius: 15px;
+  margin: 0 auto;
+  text-align: center;
+  width: 50px;
+  height: 20px;
+  background-color: rgba(176, 255, 229, 0.559); 
+}
+.homeButton a{
+  text-decoration: none;
+}

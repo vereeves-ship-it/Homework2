@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8" />
+ <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Homework2</title>
+ <link rel="stylesheet" href="styles.css">
+ </head>
+ <body>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#home">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <div class="logo">
+            <img src="images/logo.png" alt="">
+        </div>
+    </nav>
+        <div class="content">
+            <header id="home"></header>
+            <div class="about">
+                <h1>About</h1>
+                <div class="info">
+                    <div class="icon"></div>
+                    <div class="text">
+                        <p>ThatUserKai</p>
+                        <p>A digital artist and illustrator who primarily works with Clip Studio Paint. He is currently studying to be a storyboard animator. He also works freelance with character design while also creating and rigging VTuber models.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="projects" class="line"></div>
+            <div class="projects">
+                <h1>Projects</h1>
+                <div class="videos">
+                    <div class="oneTwo">
+                        <div class="videoOne">
+                        <video controls autoplay loop muted>
+                             <source src="videos/1.mov">
+                            </video>
+                    </div>
+                    <div class="videoTwo">
+                        <video controls autoplay loop muted>
+                            <source src="videos/2.mov">
+                        </video> 
+                    </div>
+                    </div>
+                    <div class="videoThree">
+                        <video controls autoplay loop muted>
+                            <source src="videos/3.mov">
+                        </video>  
+                    </div>
+                </div>
+                <div class="images">
+                    <div class="topImages">
+                        <div class="artOne"></div>
+                    <div class="artTwo"></div>
+                    <div class="artThree"></div>
+                    </div>
+                    <div class="bottomImages">
+                    <div class="artFour"></div>
+                    <div class="artFive"></div>
+                    <div class="artSix"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="skills" class="line"></div>
+            <div class="skills">
+                <h1>Skills</h1>
+                <div class="skillsContent">
+                    <div class="skillsIcon">
+                    <div class="iconOne"></div>
+                    <div class="iconTwo"></div>
+                    <div class="iconThree"></div>
+                    <div class="iconFour"></div>
+                </div>
+                <p>
+                    <p>- Clip Studio Paint: ~4 years</p>
+                    <p>- Procreate: ~5 years</p>
+                    <p>- Live2D: ~1 year</p>
+                    <p>- Adobe Animate: ~Half a year</p>
+                </p>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div id="contact" class="contact">
+                <h1>Contact</h1>
+                <form action="submitPage.html" method="get">
+                    <label for="name">Name:*</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+                <br><br>
+
+                <label for="email">Email:*</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+                <br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="phone"
+                id="phone" name="phone" placeholder="Enter your phone number">
+                <br><br>
+
+                <p>Select your preferred contact method:</p>
+                <input type="radio" id="email" name="contact" value="email">
+                <label for="email">Email</label><br>
+                <input type="radio" id="phone" name="contact" value="phone">
+                <label for="phone">Phone</label><br>
+                <br><br>
+
+                <input type="submit" value="Submit">
+                </form>
+            
+            </div>
+            <br>
+            <footer>
+            <p>&copy; ThatUserKai 2026</p>
+        </footer>
+        </div>
+ </body>
+</html>
