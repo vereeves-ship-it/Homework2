@@ -247,38 +247,42 @@ h1{
   background-repeat: no-repeat;
   background-size: 100%;
   width: 225px;
-  height: 400px;
+  height: 285px;
 }
 .artTwo{
   background-image: url(images/bird.png);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 345px;
-  height: 500px;
+  height: 290px;
 }
 .artThree{
   background-image: url(images/bnuuy.png);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 220px;
+  height: 290px;
 }
 .artFour{
   background-image: url(images/Emi.png);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 235px;
+  height: 285px;
 }
 .artFive{
   background-image: url(images/Cyn.png);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 195px;
+  height: 285px;
 }
 .artSix{
   background-image: url(images/gays.png);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 320px;
+  height: 288px;
 }
 
 form{
@@ -303,7 +307,6 @@ form{
   height: 618px;
   background-color: lightblue;
 }
-
 .box{
   margin: 0 auto;
   border: solid 3px;
@@ -351,4 +354,97 @@ h2{
 }
 .homeButton a{
   text-decoration: none;
+}
+
+/*Hover*/
+nav a:hover{
+  border-radius: 5px;
+  background-color: #6c248287;
+  transition-duration: .5s;
+  transform: scale(1.025);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.artOne{
+  transition: transform 0.5s ease;
+}
+.artOne:hover{
+  transform: scale(1.025);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.artTwo{
+  transition: transform 0.5s ease;
+}
+.artTwo:hover{
+  transform: scale(1.025);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.artThree{
+  transition: transform 0.5s ease;
+}
+.artThree:hover{
+  transform: scale(1.025);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.artFour{
+  transition: transform 0.5s ease;
+}
+.artFour:hover{
+  transform: scale(1.025);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.artFive{
+  transition: transform 0.5s ease;
+}
+.artFive:hover{
+  transform: scale(1.025);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.artSix{
+  transition: transform 0.5s ease;
+}
+.artSix:hover{
+  transform: scale(1.025);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.iconOne{
+  transition: transform 0.5s ease;
+}
+.iconOne:hover{
+  transform: scale(1.025);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.iconTwo{
+  transition: transform 0.5s ease;
+}
+.iconTwo:hover{
+  border-radius: 35px;
+  transform: scale(1.025);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.iconThree{
+  transition: transform 0.5s ease;
+}
+.iconThree:hover{
+  border-radius: 50px;
+  transform: scale(1.025);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.iconFour{
+  transition: transform 0.5s ease;
+}
+.iconFour:hover{
+  transform: scale(1.025);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+#submitButton:hover{
+  transform: scale(1.025);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.homeButton{
+  transition: transform 0.5s ease;
+}
+.homeButton:hover{
+  transform: scale(1.025);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
